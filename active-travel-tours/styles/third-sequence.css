@@ -1,0 +1,76 @@
+.third-sequence {
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.third-sequence-main-picture {
+  height: 796px;
+  width: 796px;
+  border-radius: 50%
+}
+
+.third-sequence-bracket {
+  position: relative;
+  top: -210px;
+  right: -370px;
+  height: 440px;
+  width: 550px;
+  padding: 40px;
+  background-color: rgb(65, 101, 139);
+  border-radius: 50px;
+}
+
+.third-sequence-bracket-header {
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.third-sequence-bracket-first-paragraph {
+  color: white;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.third-sequence-bracket-second-paragraph {
+  color: white;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.second-freepik {
+  text-decoration-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+.second-freepik:hover {
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+.third-sequence-bracket-read-more-button {
+  color: gray;
+  background-color: white;
+  letter-spacing: 1px;
+  font-family: Raleway, sans-serif;
+  padding: 15px 45px;
+  border-radius: 30px;
+  /* Nie wiem kurwa jak sie pozbywać tych underlinów. Nic się mnie nie słucha */
+  text-decoration-style: underline;
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+.third-sequence-bracket-read-more-button:hover {
+  background-color: rgb(235, 235, 235);
+}

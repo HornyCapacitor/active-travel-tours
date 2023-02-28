@@ -1,0 +1,48 @@
+.second-sequence {
+  background-color: rgb(65, 101, 139);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex: 1fr 1140px 1fr;
+}
+
+.second-sequence-middle-part {
+  height: 300px;
+  width: 1140px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: rgb(224, 229, 235);
+  z-index: 10;
+  width: 220px;
+  height: 345px;
+  border-radius: 60px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 25px;
+}
+
+.information-box-icon {
+  width: 85px;
+  height: 85px;
+  margin-bottom: 15px;
+}
+
+.information-box-header {
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(17, 17, 17);
+}
+
+.information-box-paragraph {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(17, 17, 17);
+  line-height: 32px;
+}

@@ -1,0 +1,80 @@
+.end-header {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.end-header-first-header {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgb(65, 101, 139);
+}
+
+.end-header-second-header {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: rgb(31, 28, 28);
+  line-height: 54px;
+}
+
+.registration-form {
+  background-color: rgb(65, 101, 139);
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  border-radius: 50px;
+}
+
+.registration-form-header {
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.textbox {
+  background-color: rgb(65, 101, 139);
+  border: none;
+  border-bottom: white solid;
+  padding: 12px 10px;
+  width: 386px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.submit-button {
+  display: block;
+  margin-top: 25px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: rgb(0, 0, 0);
+  letter-spacing: 3px;
+  transition: 0.15s;
+  font-family: Raleway, sans-serif;
+}
+
+.submit-button:hover {
+  background-color: rgb(119, 165, 214);
+  text-decoration-color: rgb(119, 165, 214);
+}

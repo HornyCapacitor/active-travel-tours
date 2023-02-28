@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  height: 80px;
+  background-color: white;
+  margin-bottom: 1000px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.default-logo-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 80px;
+  width: 80px;
+}
+
+.default-logo {
+  display: flex;
+  width: 64px;
+  height: 32px;
+}
+
+.hamburger-menu-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 80px;
+  width: 80px;
+}
+
+.hamburger-menu {
+  display: flex;
+  width: 24px;
+  height: 24px;
+}

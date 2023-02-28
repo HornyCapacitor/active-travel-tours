@@ -1,0 +1,62 @@
+.fifth-sequence {
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1fr, 500px, 600px, 1fr;
+}
+
+.fifth-sequence-main-picture {
+  width: 443px;
+  height: 443px;
+  border-radius: 50%;
+  margin-left: 200px;
+  z-index: 1;
+}
+
+.fifth-sequence-bracket {
+  width: 400px;
+  margin-left: 100px;
+}
+
+.travel-agency-information {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(100, 100, 100);
+  letter-spacing: 2px;
+  margin: 0px;
+}
+
+.fifth-sequence-bracket-header {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 0px;
+}
+
+.fifth-sequence-bracket-first-paragraph {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.fifth-sequence-bracket-second-paragraph {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 32px;
+  margin-bottom: 35px;
+}
+
+.blue-filler {
+  background-color: rgb(65, 101, 139);
+  width: 312px;
+  height: 528px;
+  border-radius: 50px;
+  position: relative;
+  left: -275px;
+  z-index: 0;
+}
